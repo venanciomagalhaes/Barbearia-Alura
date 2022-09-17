@@ -1,0 +1,454 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+li, ul, ol, a {
+	text-decoration: none;
+	list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-size: 16px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient( #fcfbfb, #f7f4f4);  
+
+}
+
+
+header{
+    width: 100%;
+    background-color: #cccccc;
+
+}
+
+.container{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+
+.logo img {
+    margin-left: 40px;
+}
+
+
+.menu {
+    display: flex;    
+}
+
+.item-menu {
+    margin-left: 15px;
+}
+
+.item-menu a {
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.item-menu:last-child{
+    margin-right: 20px;
+}
+
+.item-menu a:hover{
+    border-bottom: 1px solid black;
+}
+
+.banner-home {
+    width: 100%;
+}
+
+.sobre{
+    max-width: 1440px;
+    margin: auto;
+    padding: 40px;
+}
+
+.titulo-secao{
+    text-align: center;
+    font-size: 2em;
+    padding: 20px;
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
+.titulo-secao::before{
+    content: '[ ';
+}
+
+.titulo-secao::after{
+    content: ' ]';
+    font-weight: bold;
+}
+
+.titulo-secao::first-letter{
+    font-weight: bold;
+}
+
+
+
+.conteudo-sobre{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+
+}
+
+.container-p-sobre{
+    width: 80%;
+    padding: 10px;
+}
+
+
+.utensilios img{
+    width: 150px;
+    height: 170px;
+    margin-right: 15px;
+}
+
+.p-padrao{
+    margin-bottom:  1.5em;
+    text-align: justify;
+}
+
+.nosso-estabelecimento{
+    width: 100%;
+    text-align: center;
+}
+
+.p-estabelecimento{
+    font-size: 1.3em;
+    margin-bottom:  1em;
+    text-align: center;
+}
+
+.mapa{
+    width: 100%;
+    height: 400px;
+
+    margin: auto;
+}
+
+.beneficios{
+    width: 100%;
+}
+
+.beneficios-detalhes{
+    width: 60%;
+    margin: 0  auto ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.lista-beneficios{
+    font-size: 1em;
+    width: 50%;
+}
+
+
+
+.lista-beneficios li {
+    padding: 15px;
+    font-size: 1.2em;
+}
+
+.lista-beneficios li::before {
+    content: '✂	';
+    padding: 10px;
+}
+
+.lista-beneficios li:first-child{
+    font-weight: bold;
+}
+
+.beneficios-detalhes div {
+    width: 50%;
+
+}
+
+.img-barbeiro{
+    width: 100%;
+    box-shadow: 4px 4px 4px 5px black;
+}
+
+.container-video{
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.video-barbeiro{
+    width: 50%;
+    min-height: 600px;
+    margin-bottom: 30px;
+
+
+}
+
+
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.card-produto{
+    width: 20%;
+    background-color: white;
+    text-align: center;
+    height: 500px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.card-produto img {
+    width: 100%;
+}
+.p-card-produto{
+    margin-top: 20px;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.titulo-produto{
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.preco{
+    font-weight: bold;
+}
+
+form{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+input, label {
+    display: block;
+    padding: 10px;
+    width: 90%;
+}
+
+label{
+    font-weight: bold;
+    margin-left: 0px;
+    padding-left: 0px ;
+}
+
+textarea{
+    width: 90%;
+    padding: 10px;
+    height: 80px;
+}
+
+.btn-enviar{
+    width: 40%;
+    padding: 20px;
+    margin-top: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-enviar:hover{
+    border: #fcfbfb 1px solid;
+    border-radius: 20px;
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+    background-image: url(/assets/img/bg.jpg);
+    color: white;
+    font-weight: bold;
+    padding: 40px;
+}
+
+
+
+
+@media screen and  (max-width: 1440px) {
+
+    .video-barbeiro{
+        width: 60%;
+        min-height: 500px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and  (max-width: 1024px) {
+    .beneficios-detalhes div {
+        width: 100%;
+    }
+
+    .lista-beneficios{
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .utensilios{
+        display: none;
+    }
+
+    .produtos{
+        width: 100%;
+    }
+
+    .card-produto {
+        width: 30%;
+        padding: 0px;
+    }
+
+}
+
+@media screen and  (max-width: 768px) {
+    .video-barbeiro{
+        width: 60%;
+        min-height: 300px;
+        margin-bottom: 30px;
+    }
+
+    form{
+        width: 80%;
+        margin-left: 0px;
+        margin: auto;
+        margin-top: 50px;
+
+    }
+
+}
+
+@media screen and  (max-width: 425px) {
+
+    body{
+        font-size: 14px;
+    }
+
+    header{
+        justify-content: center;
+    }
+    
+    .logo img {
+        margin-left: 0px;
+    }
+
+    .logo{
+        width: 100%;
+        text-align: center;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .item-menu{
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .item-menu:last-child{
+        margin-right: 0px;
+    }
+
+    .sobre{
+        padding: 0px ;
+    }
+
+   .conteudo-sobre{
+    width: 100%;
+    padding: 0px ;
+    }
+
+    .container-p-sobre{
+        width: 100%;
+    }
+
+
+    .lista-beneficios li {
+        padding: 15px;
+        margin-left: 10px;
+        font-size: 1em;
+    }
+
+    
+    .beneficios-detalhes {
+        width: 90%;
+    }
+
+    .video-barbeiro{
+        width: 90%;
+    }
+
+    .card-produto{
+        width: 80%;
+        margin: 5%;
+    }
+
+}
+
+
+@media screen and  (max-width: 375px) {
+
+    .titulo-secao{
+        font-size: 1.5em;
+    }
+}
+
+
+@media screen and  (max-width: 320px) {
+
+    .menu a {
+        padding: 0px ;
+    }
+
+    .menu{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .item-menu{
+        padding: 10px;
+        margin: 0px;
+    }
+}
+
+
+
+
+
+
+
