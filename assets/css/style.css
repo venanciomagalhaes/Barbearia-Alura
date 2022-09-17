@@ -289,13 +289,14 @@ textarea{
 }
 
 footer{
+    background-color: black;
     margin-top: 50px;
     text-align: center;
     background-image: url(/assets/img/bg.jpg);
     color: white;
     font-weight: bold;
     padding: 40px;
-    background-color: black;
+    
 }
 
 
