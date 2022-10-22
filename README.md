@@ -5,3 +5,4 @@ Tecnologias utilizadas:
 
 * HTML
 * CSS (Flexbox e Media Queries)
+* JQuery e JQuery Validate
