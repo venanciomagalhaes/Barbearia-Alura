@@ -37,7 +37,7 @@
 
         <main>
 
-            <form action="">
+            <form action="" id="formulario">
                 <label for="name">Nome e sobrenome</label>
                 <input required type="text" name="name" id="name" placeholder="Insira seu nome e sobrenome">
 
@@ -61,6 +61,37 @@
             <img src="assets/img/logo-branco.png" alt="logo">
             <p>2022 - Todos os direitos reservados</p>
         </footer>
+
+        <script src="assets/js/jquery-3.6.1.js"></script>
+        <script src="assets/js/jquery.validate.js"></script>
+        <script src="assets/js/jquery-messages-pt-br.js"></script>
+        <script>
+
+            $('#formulario').validate({
+
+                rules: {
+                    name: {
+                        required: true,
+                        minlength: '3'
+                    },
+
+                    email: {
+                        email: true
+                    },
+
+                    telefone: {
+                        number: true
+                    }, 
+
+                    mensagem: {
+                        minlength: '10',
+                        maxlength: '1000'
+                    }
+                }
+
+            })
+
+        </script>
 
     </body>
 </html>

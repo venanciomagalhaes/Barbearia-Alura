@@ -456,7 +456,9 @@ footer{
     }
 }
 
-
+.error{
+    color: red;
+}
 
 
 
