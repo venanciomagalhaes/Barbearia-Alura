@@ -7,3 +7,4 @@ Tecnologias utilizadas:
 * CSS3 (c/ Flexbox e Media Queries)
 * JQuery / JQuery Validate
 
+Acesse para visualizar: https://venanciomagalhaes.github.io/Barbearia-Alura/
